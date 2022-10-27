@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 750px;
+    margin: 30px auto;
+}
+
+.ligne_haut {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.haut_img_gauche {
+    background-image: url(images/img1.jpg);
+    width: 365px;
+    height: 230px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.haut_img_droite {
+    background-image: url(images/img2.jpg);
+    width: 365px;
+    height: 230px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.ligne_milieu {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+     text-align: center;
+}
+
+.milieu_img_gauche {
+    background-image: url(images/img3.jpg);
+    width: 230px;
+    height: 145px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.milieu_img_milieu {
+    background-image: url(images/img4.jpg);
+    width: 230px;
+    height: 145px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.milieu_img_droite {
+    background-image: url(images/img5.jpg);
+    width: 230px;
+    height: 145px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.ligne_bas {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.bas_img_gauche {
+    background-image: url(images/img6.jpg);
+    width: 365px;
+    height: 230px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.bas_img_droite {
+    background-image: url(images/img7.jpg);
+    width: 365px;
+    height: 230px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.haut_img_gauche:hover, .haut_img_droite:hover, .milieu_img_gauche:hover, .milieu_img_milieu:hover,.milieu_img_droite:hover, .bas_img_gauche:hover, .bas_img_droite:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
